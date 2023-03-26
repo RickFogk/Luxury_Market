@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Italianno&family=Josefin+Sans:wght@100&family=Lora&family=Oswald&family=Playfair+Display&display=swap');
 
 
@@ -8,213 +5,249 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    /*height: 100vh;*/
-    margin: 0;
-    padding:0;
-    background-color: #191919;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  /*height: 100vh;*/
+  margin: 0;
+  padding: 0;
+  background-color: #191919;
+}
 
 h1 {
-    font-size:6rem;
-    font-weight:900;
-    color: #fff;
-    font-family: 'Josefin Sans', serif;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #fff;
+  font-family: 'Josefin Sans', serif;
 }
 
 span {
-    font-family: 'Cormorant', serif;
-};
-
+  font-family: 'Cormorant', serif;
 }
-  
-  .image {
-    /*background-image: url(../images/bg_image.jpg);*/
-    width: 1280px;
-    height: 832px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  header {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    gap:2rem;
-    height: 100vh;
-    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  header h1, header span, header a {
-    width: 100%;
-    text-align: center;
-  }
 
-  section {
-    position: relative;
-  }
-  
-  section img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  section .content {
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-  }
-  
-  section .content h1 {
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  section .content span {
-    font-size: 24px;
-    display: block;
-    margin-bottom: 24px;
-  }
-  
-  section .content .button {
-    display: inline-block;
-    padding: 12px 24px;
-   /* background-color: #ddd;*/
-   background: rgb(6,6,6);
-background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(42,36,6,1) 1%, rgba(180,155,8,1) 65%);
-    color: #fff;
-    text-shadow: #191919;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-  }
-  
-  section .content .button:hover {
-    background-color: #ccc;
-  }
-  
-  section .info {
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1f1f1f+0,0e0e0e+60,0e0e0e+72,e0e0e0+100,7db9e8+100 */
-   background: rgb(67,67,67);
-   background: linear-gradient(180deg, rgba(67,67,67,1) 0%, rgba(29,29,29,1) 93%);
+html{
+  scroll-behavior: smooth;
+}
 
-   
-    display: flex;
-    align-items: center;
-    width: 1280px;
-    height: 315px;
-  }
 
-  section .image-container {
-    display: flex;
-    justify-content: center;
-    flex: 1;
+.image {
+  /*background-image: url(../images/bg_image.jpg);*/
+  width: 1280px;
+  height: 832px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 100vh;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1,
+header span,
+header a {
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  position: relative;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section .content {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+section .content h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+section .content span {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+section .content .button {
+  display: inline-block;
+  padding: 12px 24px;
+  /* background-color: #ddd;*/
+  background: rgb(6, 6, 6);
+  background: linear-gradient(0deg, rgba(6, 6, 6, 1) 0%, rgba(42, 36, 6, 1) 1%, rgba(180, 155, 8, 1) 65%);
+  color: #fff;
+  text-shadow: #191919;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+section .content .button:hover {
+  background-color: #ccc;
+}
+
+section .info {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1f1f1f+0,0e0e0e+60,0e0e0e+72,e0e0e0+100,7db9e8+100 */
+  background: rgb(67, 67, 67);
+  background: linear-gradient(180deg, rgba(67, 67, 67, 1) 0%, rgba(29, 29, 29, 1) 93%);
+
+
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: 315px;
+}
+
+section .image-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 section .image-container img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 section .text-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 section .text-container p {
-    margin: 0;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-section .text-container button {
-    width: 125px;
-    height: 45px;
-    display: inline-block;
-    padding: 12px 24px;
-    /*background-color: #ddd;*/
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s ease;
-    background: rgb(6,6,6);
-background: linear-gradient(0deg, rgba(6,6,6,1) 0%, rgba(42,36,6,1) 1%, rgba(180,155,8,1) 65%);
+section .text-container .button {
+  width: 125px;
+  display: inline-block;
+  padding: 12px 24px;
+  /*background-color: #ddd;*/
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  background: rgb(6, 6, 6);
+  background: linear-gradient(0deg, rgba(6, 6, 6, 1) 0%, rgba(42, 36, 6, 1) 1%, rgba(180, 155, 8, 1) 65%);
 }
 
 section .card-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 100px 20px;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 100px 20px;
+  box-sizing: border-box;
 }
 
 section .card {
-    position: relative;
-    width: 348px;
-    height: 208px;
-    overflow: hidden;
-    border-radius: 10px;
-    perspective: 1000px;
+  position: relative;
+  width: 348px;
+  height: 208px;
+  overflow: hidden;
+  border-radius: 10px;
+  perspective: 1000px;
 }
 
 section .card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.3s;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
 }
 
 section .card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
 
- 
+
+}
+
+.form{
+  border: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #191919;
+  color: #fff;
+  border-style: solid;
+}
+
+form input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #191919;
+  color: #fff;
+}
+
+form textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #191919;
+  color: #fff;
 }
 
 .card:hover img {
-    opacity: 0;
+  opacity: 0;
 }
 
 .card:hover .card-inner {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .card p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
 }
 
 .card:hover p {
-    display: flex;
+  display: flex;
 }
