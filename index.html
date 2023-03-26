@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,54 @@
     <title>Luxury Market</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
-        
+
     </header>
 
     <section>
         <img src="assets/images/img_top.png" alt="Background Image">
         <div class="content">
-          <h1>Caio & Ricardo</h1>
-          <span>Luxury Market</span>
-          <a href="#" class="button">Learn more</a>
+            <h1>Caio & Ricardo</h1>
+            <span>Luxury Market</span>
+            <a href="#info" class="button">Learn more</a>
         </div>
         <!--<p>Embark on a journey with us as we guide you through our exceptional collection and unlock the doors to a realm of sophistication and elegance.</p>-->
-        
-        <div class="info">
+
+        <div id="info" class="info">
             <div class="image-container">
                 <img src="assets/images/bros.png" alt="Circular Image">
-                
+
             </div>
             <div class="text-container">
-                <p>Welcome to the world of unparalleled luxury and unparalleled experiences, brought to you by Caio and Ricardo. Our platform specializes in showcasing the finest yachts, private airplanes, and opulent residences that cater to the discerning tastes of the elite.</p>
+                <p>Welcome to the world of unparalleled luxury and unparalleled experiences, brought to you by Caio and
+                    Ricardo. Our platform specializes in showcasing the finest yachts, private airplanes, and opulent
+                    residences that cater to the discerning tastes of the elite.</p>
                 <br>
 
-                <p>Our passion for excellence and our commitment to delivering unparalleled service make us the preferred choice for those who demand nothing but the best. With an extensive network of industry experts and exclusive partnerships, we are dedicated to providing our clientele with a seamless experience, from acquisition to after-sales support.</p>
-                    
-                  <br>      
-                    
+                <p>Our passion for excellence and our commitment to delivering unparalleled service make us the
+                    preferred choice for those who demand nothing but the best. With an extensive network of industry
+                    experts and exclusive partnerships, we are dedicated to providing our clientele with a seamless
+                    experience, from acquisition to after-sales support.</p>
+
                 <br>
-                <button class="text">Click Me</button>
+
+                <br>
+                <a href="#contact" class="button">Click Me</a>
             </div>
         </div>
 
         <div class="card-container">
             <div class="card">
-                
+
                 <div class="image-container">
                     <img src="assets/images/yatch_bw.png" alt="Card Image">
                 </div>
                 <div class="text-container">
                     <h3>Yachts</h3>
-                    <p>Our collection of yachts is second to none. We offer a wide range of vessels, from the most luxurious superyachts to the most exclusive sailing yachts.</p>
+                    <p>Our collection of yachts is second to none. We offer a wide range of vessels, from the most
+                        luxurious superyachts to the most exclusive sailing yachts.</p>
                 </div>
             </div>
             <div class="card">
@@ -56,7 +64,8 @@
                 </div>
                 <div class="text-container">
                     <h3>Private Planes</h3>
-                    <p>Our collection of private planes is second to none. We offer a wide range of vessels, from the most luxurious superyachts to the most exclusive sailing yachts.</p>
+                    <p>Our collection of private planes is second to none. We offer a wide range of vessels, from the
+                        most luxurious superyachts to the most exclusive sailing yachts.</p>
                 </div>
             </div>
             <div class="card">
@@ -65,11 +74,30 @@
                 </div>
                 <div class="text-container">
                     <h3>Residences</h3>
-                    <p>Our collection of residences is second to none. We offer a wide range of vessels, from the most luxurious superyachts to the most exclusive sailing yachts.</p>
+                    <p>Our collection of residences is second to none. We offer a wide range of vessels, from the most
+                        luxurious superyachts to the most exclusive sailing yachts.</p>
                 </div>
             </div>
         </div>
-      </section>
-    
+
+        <div id="contact" class="form">
+            <form action="#" method="post">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Endereço de e-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <input type="submit" value="Enviar">
+      
+            </form>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
