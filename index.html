@@ -10,94 +10,132 @@
 </head>
 
 <body>
+
+    <div class="hamburguer">
+        <div class="linha"></div>
+        <div class="linha"></div>
+        <div class="linha"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#secao-apresentacao">
+                    <i class="fa-solid fa-user"></i>
+                    Yatches
+                </a>
+            </li>
+            <li>
+                <a href="#secao-projetos">
+                    <i class="fa-solid fa-code"></i>
+                    Airplanes
+                </a>
+            </li>
+            <li>
+                <a href="#secao-orcamento">
+                    <i class="fa-solid fa-money-bill"></i>
+                    Cars
+                </a>
+            </li>
+        </ul>
+    </nav>
+
     <header>
-
-    </header>
-
-    <section>
-        <img src="assets/images/img_top.png" alt="Background Image">
         <div class="content">
             <h1>Caio & Ricardo</h1>
             <span>Luxury Market</span>
             <a href="#info" class="button">Learn more</a>
         </div>
-        <!--<p>Embark on a journey with us as we guide you through our exceptional collection and unlock the doors to a realm of sophistication and elegance.</p>-->
+    </header>
 
-        <div id="info" class="info">
-            <div class="image-container">
-                <img src="assets/images/bros.png" alt="Circular Image">
-
-            </div>
-            <div class="text-container">
-                <p>Welcome to the world of unparalleled luxury and unparalleled experiences, brought to you by Caio and
-                    Ricardo. Our platform specializes in showcasing the finest yachts, private airplanes, and opulent
-                    residences that cater to the discerning tastes of the elite.</p>
-                <br>
-
-                <p>Our passion for excellence and our commitment to delivering unparalleled service make us the
-                    preferred choice for those who demand nothing but the best. With an extensive network of industry
-                    experts and exclusive partnerships, we are dedicated to providing our clientele with a seamless
-                    experience, from acquisition to after-sales support.</p>
-
-                <br>
-
-                <br>
-                <a href="#contact" class="button">Click Me</a>
-            </div>
+    <section id="info" class="info">
+        <div class="image-container">
+            <img src="assets/images/bros.png" alt="Circular Image">
         </div>
+        <div class="text-container">
+            <p>Welcome to the world of unparalleled luxury and unparalleled experiences, brought to you by Caio and
+                Ricardo. Our platform specializes in showcasing the finest yachts, private airplanes, and opulent
+                residences that cater to the discerning tastes of the elite.</p>
+            <br>
 
-        <div class="card-container">
-            <div class="card">
+            <p>Our passion for excellence and our commitment to delivering unparalleled service make us the
+                preferred choice for those who demand nothing but the best. With an extensive network of industry
+                experts and exclusive partnerships, we are dedicated to providing our clientele with a seamless
+                experience, from acquisition to after-sales support.</p>
 
-                <div class="image-container">
-                    <img src="assets/images/yatch_bw.png" alt="Card Image">
-                </div>
-                <div class="text-container">
-                    <h3>Yachts</h3>
-                    <p>Our collection of yachts is second to none. We offer a wide range of vessels, from the most
-                        luxurious superyachts to the most exclusive sailing yachts.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container">
-                    <img src="assets/images/airplane_bw.png" alt="Card Image">
-                </div>
-                <div class="text-container">
-                    <h3>Private Planes</h3>
-                    <p>Our collection of private planes is second to none. We offer a wide range of vessels, from the
-                        most luxurious superyachts to the most exclusive sailing yachts.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container">
-                    <img src="assets/images/car_bw.png" alt="Card Image">
-                </div>
-                <div class="text-container">
-                    <h3>Residences</h3>
-                    <p>Our collection of residences is second to none. We offer a wide range of vessels, from the most
-                        luxurious superyachts to the most exclusive sailing yachts.</p>
-                </div>
-            </div>
+            <br>
+
+            <br>
+            <a href="#contact" class="button">Click Me</a>
         </div>
-
-        <div id="contact" class="form">
-            <form action="#" method="post">
-                <label for="nome">Nome completo:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Endereço de e-mail:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" required></textarea>
-
-                <input type="submit" value="Enviar">
-      
-            </form>
-        </div>
-
     </section>
 
+    <section class="card-container">
+        <div class="card">
+            <img src="assets/images/yatch_bw.png" alt="Card Image">
+            <div class="text-container-card">
+                <h3>Yachts</h3>
+                <p>Our collection of yachts is second to none. We offer a wide range of vessels, from the most
+                    luxurious superyachts to the most exclusive sailing yachts.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/airplane_bw.png" alt="Card Image">
+            <div class="text-container-card">
+                <h3>Private Planes</h3>
+                <p>Our collection of private planes is second to none. We offer a wide range of vessels, from the
+                    most luxurious superyachts to the most exclusive sailing yachts.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/car_bw.png" alt="Card Image">
+            <div class="text-container-card">
+                <h3>Residences</h3>
+                <p>Our collection of residences is second to none. We offer a wide range of vessels, from the most
+                    luxurious superyachts to the most exclusive sailing yachts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="secao-orcamento" class="secao-orcamento">
+        <div class="secao-orcamento-form">
+            <form class="form">
+                <h3 class="h3">Quote:</h3>
+                <label for="choose">Choose</label>
+                <select name="" id="choose">
+                    <option value="0">Car</option>
+                    <option value="1">Airplane</option>
+                    <option value="2">Yatch</option>
+                </select>
+
+                <div>
+                    <label for="js">Insurance?</label>
+                    <input type="checkbox" id="insurance">
+                </div>
+
+                <div>
+                    <label for="layout">Extended Checkout?</label>
+                    <input type="radio" id="extend_yes" name="layout" value="sim">
+                    <label for="layout_sim">Yes, Extended checkout needed</label>
+                    <input type="radio" id="extend_no" name="layout" value="nao">
+                    <label for="layout_nao">No, Thanks!</label>
+                </div>
+
+                <label for="prazo" id="label_prazo">Period</label>
+                <input type="range" id="period" min="1" max="10">
+
+                <output class="output" id="output">US$ 0,00</output>
+            </form>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/menu.js"></script>
 </body>
 
 </html>
